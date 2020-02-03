@@ -1,1 +1,1 @@
-# mapgrid-sapper-template
+# mapgrid-sapper-tailwind
