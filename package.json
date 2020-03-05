@@ -5,8 +5,8 @@
     "license": "MIT",
     "scripts": {
         "dev": "sapper dev",
-        "build": "sapper build --legacy",
-        "export": "sapper export --legacy",
+        "build": "NODE_ENV=production sapper build --legacy",
+        "export": "NODE_ENV=production sapper export --legacy",
         "start": "node __sapper__/build",
         "cy:run": "cypress run",
         "cy:open": "cypress open",
@@ -29,6 +29,7 @@
         "@rollup/plugin-commonjs": "^11.0.0",
         "@rollup/plugin-node-resolve": "^7.0.0",
         "@rollup/plugin-replace": "^2.2.0",
+        "autoprefixer": "^9.7.4",
         "cypress": "^3.8.3",
         "eslint": "^5.16.0 || ^6.7.2",
         "eslint-config-airbnb-base": "^14.0.0",
