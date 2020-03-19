@@ -1,17 +1,9 @@
-<script>
-	import Nav from '../components/Nav.svelte';
-
-	export let segment;
-</script>
-
 <style global>
-	@tailwind base;
-	@tailwind components;
-	@tailwind utilities;
+    /*! purgecss start ignore */
+    @tailwind base;
+    /*! purgecss end ignore */
+    @tailwind components;
+    @tailwind utilities;
 </style>
 
-<Nav {segment}/>
-
-<main>
-	<slot></slot>
-</main>
+<slot></slot>
