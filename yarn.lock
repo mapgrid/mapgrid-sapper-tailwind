@@ -3801,10 +3801,10 @@ supports-color@^6.1.0:
   dependencies:
     has-flag "^3.0.0"
 
-svelte-preprocess@^3.7.0:
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-3.7.0.tgz#fb6e6f8e84405b949a95ac3094aceacae9f86229"
-  integrity sha512-EvfIMIHqpYgqUTJqihNsix1GeIq6d4LEvuMwGNw93TtW0XaOnbYBQHXVBdcGxlvcNeYErpkKeUR374/3AMJjew==
+svelte-preprocess@^3.7.1:
+  version "3.7.1"
+  resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-3.7.1.tgz#d368783221f9bd2896ba47d72c534dd43c4f1a24"
+  integrity sha512-7Padl2rCwQAakLGnNhk52NJw4eUJHs+q432rRvcCs/Ul7pKoSoZ69HCptXTH8ChjRFl1hqrVsLVYu7wGvYgR1A==
   dependencies:
     "@types/pug" "^2.0.4"
     "@types/sass" "^1.16.0"
