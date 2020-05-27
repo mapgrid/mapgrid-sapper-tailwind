@@ -8,9 +8,10 @@
         "build": "NODE_ENV=production sapper build --legacy",
         "export": "NODE_ENV=production sapper export --legacy",
         "start": "node __sapper__/build",
+        "cy:serve": "sapper dev --port 3333",
         "cy:run": "cypress run",
         "cy:open": "cypress open",
-        "test": "run-p --race dev cy:run",
+        "test": "run-p --race cy:serve cy:run",
         "format": "prettier --write \"**/*.js\" \"**/*.json\"",
         "lint": "eslint ."
     },
