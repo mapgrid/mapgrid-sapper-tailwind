@@ -6,4 +6,4 @@
     @tailwind utilities;
 </style>
 
-<slot></slot>
+<slot />
