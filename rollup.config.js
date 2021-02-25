@@ -41,7 +41,6 @@ export default {
             legacy &&
                 babel({
                     extensions: ['.js', '.mjs', '.html', '.svelte'],
-                    runtimeHelpers: true,
                     exclude: ['node_modules/@babel/**'],
                     presets: [
                         [
