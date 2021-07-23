@@ -48,6 +48,6 @@
         "start-server-and-test": "^1.13.0",
         "svelte": "^3.40.1",
         "svelte-preprocess": "^4.7.4",
-        "tailwindcss": "^2.2.6"
+        "tailwindcss": "^2.2.7"
     }
 }
